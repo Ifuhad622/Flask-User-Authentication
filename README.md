@@ -31,7 +31,7 @@ Database System: Set up a database system (e.g., SQLite) to store user data.
 Installation 
 I followed these steps to set up the project: 
 Clone the Repository: 
-git clone https://github.com/nenenj/flask-user-authentication.git 
+git clone https://github.com/ifuhad622/flask-user-authentication.git 
 Navigate to the Project Directory: 
 cd flask-user-authentication 
 Create a Virtual Environment (Optional but Recommended): 
