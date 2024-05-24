@@ -18,9 +18,54 @@
 			<li><a href="{{ url_for('login') }}">Login</a></li>
 		</ul>
 	</nav>
+	<div class="container">
+		<header>
 	
-    <h2>Welcome</h2>
-    <p>Flask-User-Authentication website. You are to logged in.</p>
+    <h1>Welcome to Flask-User-Authentication website</h1>
+		</header>
+		<main>
+			<section>
+				<h2>About This Application</h2>
+				<p>
+				Welcome to our Flask User Authentication system!
+				</p>
+				<p>
+				Our system ensures that user information is securely stored and managed, using best practices for password hashing and session management. Whether you are building a small personal project or a large-scale web application, this setup serves as a reliable foundation for user authentication.
+				</p>
+				 Our system ensures that user information is securely stored and managed, using best practices for password hashing and session management. Whether you are building a small personal project or a large-scale web application, this setup serves as a reliable foundation for user authentication.
+				                 </p> 
+			</section>
+						             
+			<section>
+				<h2>Features</h2>
+				<ul>
+		<li><strong>User Registration:</strong> New users can create an account by providing a username, email, and password.</li>
+		<li><strong>User Login:</strong> Registered users can log in with their email and password.</li>
+																		                         <li><strong>Password Hashing:</strong> Passwords are securely hashed using bcrypt to ensure data security.</li>
+																					 <li><strong>Session Management:</strong> User sessions are managed to keep users logged in across different pages.</li>
+																					                     <li><strong>Flash Messages:</strong> Informative flash messages guide users through various actions like registration, login, and logout.</li>
+																							                     </ul>
+			</section>
+			            <section>
+ <h2>Getting Started</h2>
+		<p>
+ To get started, you can register a new account by clicking on the "Register" link at the top of the page. If you already have an account, simply log in using the "Login" link.
+	</p>
+	<p>
+	Once logged in, you will have access to additional features and personalized content.
+	</p>
+	</section>
+	<section>
+	<h2>Contact Us</h2>
+	<p>
+	If you have any questions or need support, feel free to contact us at support@example.com. We are here to help you!
+	</p>
+	</section>
+	</main>
     <p><a href="{{ url_for('logout') }}">Logout</a></p>
+    <footer>
+	  <p>&copy; 2024 Flask User Authentication. All rights reserved.</p>
+	</footer>
+	</div>
 </body>
 </html>
